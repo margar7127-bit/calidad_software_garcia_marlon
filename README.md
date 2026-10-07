@@ -1,5 +1,5 @@
 # Calidad de Software
-
+# Autor: Marlon Garcia
 Repositorio de la materia de Calidad de Software.
 
 ## Objetivo
