@@ -1,0 +1,279 @@
+# =========================================================
+# NODE.JS / NPM
+# =========================================================
+
+node_modules/
+
+npm-debug.log*
+npm-debug.log
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+.npm/
+.npm-cache/
+
+# Package manager
+.yarn/
+.pnpm-store/
+
+# =========================================================
+# VARIABLES DE ENTORNO
+# =========================================================
+
+.env
+.env.*
+!.env.example
+!.env.sample
+!.env.template
+
+# =========================================================
+# TYPESCRIPT
+# =========================================================
+
+*.tsbuildinfo
+
+# Archivos compilados
+dist/
+build/
+out/
+lib/
+
+# =========================================================
+# NESTJS
+# =========================================================
+
+.nest/
+
+# NestJS normalmente genera:
+# dist/
+# *.js
+# *.js.map
+#
+# No ignoramos todos los .js porque React/Node puede
+# utilizar archivos JavaScript que sí deben versionarse.
+
+# =========================================================
+# REACT / FRONTEND
+# =========================================================
+
+.vite/
+.next/
+.nuxt/
+.output/
+.vercel/
+.netlify/
+
+.parcel-cache/
+.cache/
+
+# React build
+build/
+
+# =========================================================
+# TESTING - GENERAL
+# =========================================================
+
+coverage/
+.nyc_output/
+jest-coverage/
+
+# Reportes de pruebas
+test-results/
+test-results/**
+reports/
+reports/**
+
+# Archivos temporales de testing
+*.snap.tmp
+
+# =========================================================
+# JEST - UNIT TESTS / E2E
+# =========================================================
+
+# Cache de Jest
+.jest/
+jest-cache/
+
+# Resultados de Jest
+coverage/
+jest-coverage/
+
+# =========================================================
+# VITEST - REACT / TYPESCRIPT
+# =========================================================
+
+# Cache de Vitest
+.vitest/
+
+# Coverage generado por Vitest
+coverage/
+
+# =========================================================
+# PLAYWRIGHT - E2E
+# =========================================================
+
+# Resultados de Playwright
+playwright-report/
+blob-report/
+
+# Resultados de pruebas
+test-results/
+
+# Cache de Playwright
+.playwright/
+
+# =========================================================
+# CYPRESS - E2E
+# =========================================================
+
+# Videos generados por Cypress
+cypress/videos/
+
+# Screenshots generados por Cypress
+cypress/screenshots/
+
+# Archivos temporales de Cypress
+cypress/downloads/
+
+# =========================================================
+# TESTING - E2E
+# =========================================================
+
+# Logs y resultados generados por pruebas E2E
+e2e-results/
+e2e-report/
+e2e-reports/
+e2e-output/
+
+# Screenshots de pruebas
+screenshots/
+
+# Videos de pruebas
+videos/
+
+# =========================================================
+# LOGS
+# =========================================================
+
+logs/
+*.log
+
+# =========================================================
+# IDE / EDITORES
+# =========================================================
+
+# Visual Studio Code
+.vscode/*
+
+# Mantener configuraciones útiles del proyecto
+!.vscode/settings.json
+!.vscode/extensions.json
+!.vscode/launch.json
+!.vscode/tasks.json
+
+# JetBrains
+.idea/
+*.iml
+
+# =========================================================
+# SISTEMA OPERATIVO
+# =========================================================
+
+.DS_Store
+.DS_Store?
+._*
+
+.Spotlight-V100
+.Trashes
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+Desktop.ini
+
+$RECYCLE.BIN/
+
+# =========================================================
+# ARCHIVOS TEMPORALES
+# =========================================================
+
+tmp/
+temp/
+*.tmp
+*.temp
+*.swp
+*.swo
+
+# =========================================================
+# BASES DE DATOS LOCALES
+# =========================================================
+
+*.sqlite
+*.sqlite3
+*.db
+
+# =========================================================
+# DOCKER
+# =========================================================
+
+docker-compose.override.yml
+
+# =========================================================
+# CERTIFICADOS / CLAVES
+# =========================================================
+
+*.pem
+*.key
+*.crt
+*.p12
+*.pfx
+
+# =========================================================
+# CACHE DE HERRAMIENTAS
+# =========================================================
+
+.eslintcache
+.stylelintcache
+
+.cache/
+.parcel-cache/
+
+# =========================================================
+# ARCHIVOS GENERADOS
+# =========================================================
+
+generated/
+generated/*
+
+# =========================================================
+# ARCHIVOS DE BUILD / PRODUCCIÓN
+# =========================================================
+
+dist/
+build/
+out/
+
+# =========================================================
+# SERVERLESS / DEPLOYMENT
+# =========================================================
+
+.serverless/
+.aws-sam/
+
+# =========================================================
+# MONOREPOS
+# =========================================================
+
+# Si existen múltiples aplicaciones dentro del mismo
+# repositorio, estas reglas aplican a cualquier nivel:
+
+**/node_modules/
+**/dist/
+**/coverage/
+**/test-results/
+**/playwright-report/
+**/cypress/videos/
+**/cypress/screenshots/
+**/.cache/
+**/.vite/
